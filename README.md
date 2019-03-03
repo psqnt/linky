@@ -28,7 +28,7 @@ example:
 `flask crawl http://coinmarketcap.com/bitcoin`
 
 The crawler stores only two items:
-link: http link address
-title: whatever is in the <title> tag
+ * link: http link address
+ * title: whatever is in the <title> tag
 
 Uses requests to get webpages and beautifulsoup to extract links and titles
