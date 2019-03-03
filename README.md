@@ -3,13 +3,15 @@
 Project is built with flask, requests, and beautifulsoup
 
 #### 2 components:
-  1. web app
+  web app
+  
     * front-end user interface (html, css)
     * back-end
       * database: sqlite3 (stores website links and titles)
       * flask
+ 
   2. web crawler
-    - obtains website links and stores in database
+  - obtains website links and stores in database
 
 
 #### Web App
