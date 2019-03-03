@@ -5,6 +5,7 @@ Project is built with flask, requests, and beautifulsoup
 #### 2 components:
   1. web app
     - front-end user interface (html, css)
+    
     - back-end
       - database: sqlite3 (stores website links and titles)
       - flask
