@@ -1,7 +1,18 @@
 <!doctype html>
 <title>Linky</title>
-<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
-<h1>Linky</h1>
-<section class="content">
-  {% block content %}{% endblock %}
-</section>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/normalize.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/skeleton.css') }}">
+<div class=container>
+  <h1 style="text-align: center;"><a href="{{ url_for('index.index') }}">Linky.</a></h1>
+  <section class="content">
+    <form style="text-align: center;" action="{{ url_for('index.index') }}" method=post class=search>
+      <input size=100 type=text name="search" id="search" value="{{ request.form['search'] }}" autocomplete=off required><br>
+      <input type=submit value=search>
+    </form>
+    {% for message in get_flashed_messages() %}
+        <div style="text-align: center;" class="flash">{{ message }}</div>
+    {% endfor %}
+    {% block content %}{% endblock %}
+  </section>
+</div>
