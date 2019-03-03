@@ -3,21 +3,8 @@
 Project is built with flask, requests, and beautifulsoup
 
 #### 2 components:
-<<<<<<< HEAD
   1. web app
   2. web crawler
-=======
-  web app
-  
-    * front-end user interface (html, css)
-    * back-end
-      * database: sqlite3 (stores website links and titles)
-      * flask
- 
-  2. web crawler
-  - obtains website links and stores in database
-
->>>>>>> 935333c1f1f6699bedd613cb1c675b6271e44a13
 
 #### Web App
 The database search just checks if any of the words you enter are in any of the
