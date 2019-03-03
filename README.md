@@ -20,8 +20,11 @@ Obtains website links and stores in database
 
 The crawler needs a seed website to start crawling from and can be started like
 so:
+
 `flask crawl seed`
+
 example:
+
 `flask crawl http://coinmarketcap.com/bitcoin`
 
 The crawler stores only two items:
