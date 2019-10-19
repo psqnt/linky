@@ -16,9 +16,15 @@ Activate virtual env
 
 `. ./venv/bin/activate`
 
-Install required python libraries
+Install the project
 
 `pip install .`
+
+
+Install libraries from requirements.txt
+
+`pip install -r requirements.txt`
+
 
 Set Flask environment (web server path)
 
