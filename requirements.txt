@@ -11,6 +11,6 @@ Jinja2==2.11.3
 MarkupSafe==1.1.1
 requests==2.22.0
 soupsieve==1.9.4
-urllib3==1.25.6
+urllib3==1.25.8
 web-app==1.0.0
 Werkzeug==0.16.0
